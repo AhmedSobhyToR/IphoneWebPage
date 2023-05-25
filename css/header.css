@@ -1,0 +1,36 @@
+
+.head-bar{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    align-items: center;
+    padding: 15px 120px;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.head-bar li a{
+    text-decoration: none;
+    color: white;
+}
+.head-bar li a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+.head-bar li a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.head-bar li a:visited:hover{
+    text-decoration: none;
+    color: wheat;
+}
